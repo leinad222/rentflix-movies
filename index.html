@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Website</title>
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/1d36c0aa30.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-container">
+      <div class="logo-container">
+        <h1 class="logo">RENTFLIX</h1>
+      </div>
+      <div class="menu-container">
+        <ul class="menu-list">
+          <li class="menu-list-item active">Home</li>
+          <li class="menu-list-item">Movies</li>
+          <li class="menu-list-item">This  Week</li>
+          <li class="menu-list-item">Popular</li>
+          <li class="menu-list-item">Movies and Beyond</li>
+          <li class="menu-list-item"> Tv Series </li>
+          <li class="menu-list-item">Video Games</li>
+          <li class="menu-list-item">Anime & Manga</li>
+        </ul>
+      </div>
+      <div class="profile-container">
+        <img class="profile-picture" src="imagefolder/profile.jpg" alt="Profile Picture" />
+        <div class="profile-text-container">
+          <span class="profile-text">Profile</span>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-moon toggle-icon"></i>
+          <i class="fas fa-sun toggle-icon"></i>
+          <div class="toggle-ball"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <i class="left-menu-icon fas fa-search"></i>
+    <i class="left-menu-icon fas fa-home"></i>
+    <i class="left-menu-icon fas fa-users"></i>
+    <i class="left-menu-icon fas fa-bookmark"></i>
+    <i class="left-menu-icon fas fa-tv"></i>
+    <i class="left-menu-icon fas fa-hourglass-start"></i>
+    <i class="left-menu-icon fas fa-shopping-cart"></i>
+  </div>
+  <!-- Main Content -->
+  <div class="container">
+    <div class="content-container">
+      <img class="featured-content" src="imagefolder/Capture.png" alt="">    
+      <h1 class="featured-title">Axl Rose Returns as Eddy Murphy</h1>
+      <p class="featured-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <button class="featured-button">Watch Now</button>
+    </div>
+    <div class="movie-list-container">
+      <h1 class="movie-list-title">Coming This Week</h1>
+      <div class="movie-list-wrapper">
+        <div class="movie-list">
+          <div class="movie-list-item">
+            <img class="movie-list-item-img" src="imagefolder/Love_Hurts_2025_Poster.webp" alt="Love Hurts Poster">
+            <span class="movie-list-item-title"> LoveHurts</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At</p>
+                        <button class="movie-list-item-button">Watch</button>    
+            </div>
+                             <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="imagefolder/rambo.jpg" alt="Love Hurts Poster">
+                            <span class="movie-list-item-title">Rambo1</span>
+                                <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    hic fugit similique accusantium.</p>
+                                                <button class="movie-list-item-button">Watch</button>
+                                       </div>
+          <div class="movie-list-item">
+            <img class="movie-list-item-img" src="imagefolder/ballerina.webp" alt="Love Hurts Poster">
+          <span class="movie-list-item-title">Ballerina</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                </div>
+            <div class="movie-list-item">
+            <img class="movie-list-item-img" src="imagefolder/FlashGordon_poster.webp" alt="Love Hurts Poster">
+            <span class="movie-list-item-title">Flash</span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="movie-list-item-button">Watch</button>
+                    </div>
+                <div class="movie-list-item">
+            <img class="movie-list-item-img" src="imagefolder/star wars.jpeg" alt="Love Hurts Poster">
+          <span class="movie-list-item-title">StarWars </span>
+            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                      </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="imagefolder/new-poster-for-superman-2025-v0-nksyu8mmik0f1.webp" alt="Love Hurts Poster">
+                    <span class="movie-list-item-title">Superman</span>
+                        <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                            hic fugit similique accusantium.</p>
+                                        <button class="movie-list-item-button">Watch</button>
+                                    </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="imagefolder/highlander-movie-poster.jpg" alt="Love Hurts Poster">
+                        <span class="movie-list-item-title">Highlander</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                hic fugit similique accusantium.</p>
+                                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="imagefolder/bloodsport.jpg" alt="Love Hurts Poster">
+                            <span class="movie-list-item-title">Bloodsport</span>
+                                <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    hic fugit similique accusantium.</p>
+                                                <button class="movie-list-item-button">Watch</button>
+                                                    </div>
+                                                  <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="imagefolder/Batman_(1989)_theatrical_poster.jpg" alt="Love Hurts Poster">
+                            <span class="movie-list-item-title">Batman</span>
+                                <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    hic fugit similique accusantium.</p>
+                                                <button class="movie-list-item-button">Watch</button>
+                                                    </div>  
+                                    <i class="fas fa-chevron-right arrow"></i>
+                                    </div>
+                                </div>
+                                    <div class="movie-list-container">
+                            <h1 class="movie-list-title">Popular</h1>
+                            <div class="movie-list-wrapper">
+                                <div class="movie-list">
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/Novocaine.jpeg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> Novocaine</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/project-hail-mary_5hff.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> ProjectHailMary</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/skyhigh.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> SkyHigh</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/the matrix.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> Matrix</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/The_Naked_Gun_2025_poster.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> NakedGun</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                   <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/zathura.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Zathura</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                   <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/The_Jewel_of_the_Nile_(1985)_film_poster.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> JeweloftheNile</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="imagefolder/cobra.jpg" alt="Love Hurts Poster">
+                            <span class="movie-list-item-title">Cobra</span>
+                                <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    hic fugit similique accusantium.</p>
+                                                <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                            <i class="fas fa-chevron-right arrow"></i>
+                                        </div>
+                                    </div>
+                                     <div class="movie-list-container">
+                            <h1 class="movie-list-title">Upcoming Movies </h1>
+                            <div class="movie-list-wrapper">
+                                <div class="movie-list">
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/1.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> SuperMarioBros2 </span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/2.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Zelda</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+
+                                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/3.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">SmashBros</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/4.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> StreetFighter</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/5.jpg "  alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title"> Sonic4</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/6.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Avatar3</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/7.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Dune3</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                
+                                                </div>
+                                                          <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/8.avif" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Blade </span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                
+                                                </div>
+                                                  <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/9.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Nova Project </span>
+                                    <p class="movie-list-item-desc">MCU ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                 <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/10.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Avengers7 </span>
+                                    <p class="movie-list-item-desc">Secret Wars  ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+
+                                                 <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/11.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Spiderman4 </span>
+                                    <p class="movie-list-item-desc">BrandNewDay ipsum dolor sit amet consection </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                            <i class="fas fa-chevron-right arrow"></i>
+                                        </div>
+                                <div class="container">
+                            <div class="content-container">
+                            <img class="featured-content" src="imagefolder/boysseason5.jpeg" alt="">    
+                            <h1 class="featured-title">One Last Season </h1>
+                            <p class="featured-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                                Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <button class="featured-button">Watch Now</button>
+                            </div>
+                            <div class="movie-list-container">
+                            <h1 class="movie-list-title"> Ongoing and Upcoming Tv Series </h1>
+                            <div class="movie-list-wrapper">
+                                <div class="movie-list">
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/maultvseries.jpeg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">MaulTvSeries</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/FOTV_series_season_2_promo.webp" alt="Love Hurts Poster">
+                                <span class="movie-list-item-title">FalloutTvSeries</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/peacemaker season 2.jpeg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">PeaceMaker </span>
+                                    <p class="movie-list-item-desc">PeaceMaker Season 2 sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                        </div>
+                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/one piece seaon 2.jpeg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">One Piece </span>
+                                    <p class="movie-list-item-desc">One Piece Season 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                        <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                        <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/daredevil season5.jpeg" alt="Love Hurts Poster">
+                                <span class="movie-list-item-title">Daredevil:BornAgain </span>
+                                    <p class="movie-list-item-desc"> Season 2sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                            <div class="movie-list-item">
+                                                <img class="movie-list-item-img" src="imagefolder/ashoka season2.jpeg" alt="Love Hurts Poster">
+                                            <span class="movie-list-item-title">Ashoka</span>
+                                                <p class="movie-list-item-desc">Ashoka Season 2 sit amet consectetur adipisicing elit. At
+                                                                    hic fugit similique accusantium.</p>
+                                                                <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                <div class="movie-list-item">
+                                                    <img class="movie-list-item-img" src="imagefolder/genvseason2.jpg" alt="Love Hurts Poster">
+                                                <span class="movie-list-item-title">Gen V</span>
+                                                    <p class="movie-list-item-desc">Gen V Season2 sit amet consectetur adipisicing elit. At
+                                                                        hic fugit similique accusantium.</p>
+                                                                    <button class="movie-list-item-button">Watch</button>
+                                                </div>
+                                                    <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/godofwar tvseries.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">GodofWar </span>
+                                                        <p class="movie-list-item-desc">The God of War Tv series  dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        </div>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                                    </div>    
+                                                            <i class="fas fa-chevron-right arrow"></i>
+                                                            </div>
+                                            <div class="container">
+                                        <div class="content-container">
+                                        <img class="featured-content" src="imagefolder/007 game 2026.jpg" alt="">    
+                                        <h1 class="featured-title">007 First Light coming 2026 </h1>
+                                        <p class="featured-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                                            Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                        <button class="featured-button">Watch</button>
+                                         </div>
+                            <div class="movie-list-container">
+                            <h1 class="movie-list-title">Coming this Fall </h1>
+                            <div class="movie-list-wrapper">
+                                <div class="movie-list">
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/Phantom_Blade_Zero_Main.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Phantom Blade Zero</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/mudang two hearts.jpg" alt="Love Hurts Poster">
+                                <span class="movie-list-item-title">MudangTwoHearts</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/blood of the dawnwalker.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Blood</span>
+                                    <p class="movie-list-item-desc"> Of the Dawn Walker sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                        </div>
+                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/snake-eater.jpg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">MetalGearSolid  </span>
+                                    <p class="movie-list-item-desc">Snake-Eater Remake  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                        <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                        <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/way of the sword.jpeg" alt="Love Hurts Poster">
+                                <span class="movie-list-item-title">Ominusha </span>
+                                    <p class="movie-list-item-desc"> Way of the Sword it amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                            <div class="movie-list-item">
+                                                <img class="movie-list-item-img" src="imagefolder/gotytei.jpeg" alt="Love Hurts Poster">
+                                            <span class="movie-list-item-title">Ghost of Yotei</span>
+                                                <p class="movie-list-item-desc">sit amet consectetur adipisicing elit. At
+                                                                    hic fugit similique accusantium.</p>
+                                                                <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                <div class="movie-list-item">
+                                                    <img class="movie-list-item-img" src="imagefolder/rerequem.jpeg" alt="Love Hurts Poster">
+                                                <span class="movie-list-item-title">Resident Evil 9</span>
+                                                    <p class="movie-list-item-desc">RE9 sit amet consectetur adipisicing elit. At
+                                                                        hic fugit similique accusantium.</p>
+                                                                    <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                <div class="movie-list-item">
+                                                    <img class="movie-list-item-img" src="imagefolder/Kingdom_Hearts_IV_logo.png" alt="Love Hurts Poster">
+                                                <span class="movie-list-item-title">KH4</span>
+                                                    <p class="movie-list-item-desc">KH4 sit amet consectetur adipisicing elit. At
+                                                                        hic fugit similique accusantium.</p>
+                                                                    <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                        <i class="fas fa-chevron-right arrow"></i>
+                                                      </div>
+
+                                                <div class="movie-list-container">
+                                                <h1 class="movie-list-title"> Coming Next Year </h1>
+                                                <div class="movie-list-wrapper">
+                                                    <div class="movie-list">
+                                                    <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/crimsondesert.jpeg" alt="Love Hurts Poster">
+                                                        <span class="movie-list-item-title">CrimsonDesert</span>
+                                                        <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    </p>
+                                                 <button class="movie-list-item-button">Watch</button>
+                                                 </div>
+                                                    <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/lostsoulaside.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">LostSoulAside </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                             <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/blood message.jpeg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">BloodMessage  </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/Atomic-Heart-II_2025_06-06-25_028-320x569.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">AtomicHeartsequel </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/project-awakening-keyart-gID_7.webp" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Project Awakening </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/The-Witcher-4-1.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Witcher 4</span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+
+                                                            </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/splinter cell.jpeg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Splinter Cell</span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                              </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/duskbloods.jpeg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">DuskBloods</span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/Beast_of_Reincarnation_cover_artwork.png" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Beast </span>
+                                                        <p class="movie-list-item-desc">of Reincarnation consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                           </div>
+                                                               <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/silenthill1.jpeg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">SilentHillRemake </span>
+                                                        <p class="movie-list-item-desc">r adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                             <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/marvels-blade-announcement-article-card.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Blade </span>
+                                                        <p class="movie-list-item-desc">adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                        <i class="fas fa-chevron-right arrow"></i>
+                                                      </div>
+                                                     
+                                         <div class="container">
+                                        <div class="content-container">
+                                        <img class="featured-content" src="imagefolder/jjk1.jpg" alt="">    
+                                        <h1 class="featured-title">JJK1 </h1>
+                                        <p class="featured-description">
+                                            Jujutsu Kaisen Season 1 dolor sit amet, consectetur adipiscing elit.<br>
+                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                                            Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                        <button class="featured-button">Watch</button>
+                                        </div>
+                            <div class="movie-list-container">
+                            <h1 class="movie-list-title">Ongoing and Upcoming Anime </h1>
+                            <div class="movie-list-wrapper">
+                                <div class="movie-list">
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/dan dan 2.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Dan Dan</span>
+                                    <p class="movie-list-item-desc">Dan Dan season 2 dolor sit amet consectetur adipisicing elit. At
+                                                    </p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/undead-unluck-sequel-anime-super-teaser-visual-v0-4kzj4ok5dvfd1.webp" alt="Love Hurts Poster">
+                                <span class="movie-list-item-title">UnDeadUnluck</span>
+                                    <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/one-punch-man-poster-1660838177219.jpeg" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">OPMan</span>
+                                    <p class="movie-list-item-desc"> One Punch man season 3 sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                        </div>
+                                    <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/kaijo no 8 season 2.webp" alt="Love Hurts Poster">
+                                    <span class="movie-list-item-title">Kaiju No8  </span>
+                                    <p class="movie-list-item-desc">Season 2  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                        <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                        <div class="movie-list-item">
+                                    <img class="movie-list-item-img" src="imagefolder/db daima.jpeg" alt="Love Hurts Poster">
+                                <span class="movie-list-item-title">DB Daima </span>
+                                    <p class="movie-list-item-desc"> it amet consectetur adipisicing elit. At
+                                                        hic fugit similique accusantium.</p>
+                                                    <button class="movie-list-item-button">Watch</button>
+                                            </div>
+                                            <div class="movie-list-item">
+                                                <img class="movie-list-item-img" src="imagefolder/blood-war-poster-1eb2aba.jpg" alt="Love Hurts Poster">
+                                            <span class="movie-list-item-title">Bleach TBWY</span>
+                                                <p class="movie-list-item-desc">sit amet consectetur adipisicing elit. At
+                                                                    hic fugit similique accusantium.</p>
+                                                                <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                <div class="movie-list-item">
+                                                    <img class="movie-list-item-img" src="imagefolder/mha final season.webp" alt="Love Hurts Poster">
+                                                <span class="movie-list-item-title">MyHeroAcademia</span>
+                                                    <p class="movie-list-item-desc">RE9 sit amet consectetur adipisicing elit. At
+                                                                        hic fugit similique accusantium.</p>
+                                                                    <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                <div class="movie-list-item">
+                                                    <img class="movie-list-item-img" src="imagefolder/fireforceseason3.jpg" alt="Love Hurts Poster">
+                                                <span class="movie-list-item-title">Fire Force </span>
+                                                    <p class="movie-list-item-desc">Fire Force Season 3 sit amet consectetur adipisicing elit. At
+                                                                        hic fugit similique accusantium.</p>
+                                                                    <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                        <i class="fas fa-chevron-right arrow"></i>
+                                                      </div>
+
+                                                <div class="movie-list-container">
+                                                <h1 class="movie-list-title"> Ongoing Manga </h1>
+                                                <div class="movie-list-wrapper">
+                                                    <div class="movie-list">
+                                                    <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/Elbaph_Arc.webp" alt="Love Hurts Poster">
+                                                        <span class="movie-list-item-title">OnePiece</span>
+                                                        <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                                    </p>
+                                                 <button class="movie-list-item-button">Watch</button>
+                                                 </div>
+                                                    <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/kagurabachi.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Kagurabachi </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                             <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/chainsaw man.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Chainsaw Man </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/black clover.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">BlackClover </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/kaiju-no-8-vol12.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">KaijuNo8 </span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                         </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/hero organization.jpeg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">HeroOrganization</span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+
+                                                            </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/Ultimate_Exorcist_Kiyoshi_volume_1_cover.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">UltimateExorcist</span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                              </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/Berserk_vol01.png" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Berserk</span>
+                                                        <p class="movie-list-item-desc">dolor sit amet consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                          <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/boruto.jpeg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Boruto </span>
+                                                        <p class="movie-list-item-desc">of Reincarnation consectetur adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                           </div>
+                                                               <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/spyxfamily.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">SilentHillRemake </span>
+                                                        <p class="movie-list-item-desc">r adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                             <div class="movie-list-item">
+                                                        <img class="movie-list-item-img" src="imagefolder/hxh manga.jpg" alt="Love Hurts Poster">
+                                                    <span class="movie-list-item-title">Blade </span>
+                                                        <p class="movie-list-item-desc">adipisicing elit. At
+                                                                            hic fugit similique accusantium.</p>
+                                                                        <button class="movie-list-item-button">Watch</button>
+                                                            </div>
+                                                        <i class="fas fa-chevron-right arrow"></i>
+                                                      </div>
+                                                
+                                                </div>
+                                                  <footer> 
+                                                    <h4>@Rentflix is sponsored by Creative Commons Organization</h4>
+                                                </footer>              
+                                                   <script src="script.js"></script>
+                                                    </body>
+                                                    </html>
